@@ -1,3 +1,5 @@
+import { userState, userEffect } from 'react';
+
 // 最初的插入排序
 const insertSort = (arr, start, end) => {
   end = end || arr.length;
@@ -20,6 +22,17 @@ const insertSortBetter = (arr, start, end) => {
     }
     arr[j] = tmp;
   }
+  return arr;
 };
 
-export default insertSort;
+export default function insertSortDisplay() {
+  const arr = new Array(15).fill(0).map((a, i) => i);
+  arr.sort(() => 0.5 - Math.random());
+  return (
+    <div>
+      <h2>插入排序展示</h2>
+      <p>[{String(arr)}]</p>
+      <p>[{String(insertSortBetter(arr, 0, arr.length))}]</p>
+    </div>
+  );
+}
