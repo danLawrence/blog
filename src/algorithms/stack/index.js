@@ -37,13 +37,42 @@ export default function Index() {
 
   return (
     <div>
-      <p className="hoverClick" onClick={e => runStack()}>
+      <p
+        className="hoverClick"
+        onClick={e => {
+          const result = runStack('[(]');
+          console.log('🚀 ~ file: index.js ~ line 44 ~ Index ~ result', result);
+        }}
+      >
         Stack栈的算法解析
       </p>
     </div>
   );
 }
 
-function runStack() {
-  console.log('🚀 ~ file: index.js ~ line 40 ~ runStack ~ sata');
+function runStack(str) {
+  window.runStack = runStack;
+  const leftToRight = {
+    '(': ')',
+    '[': ']',
+    '{': '}',
+  };
+  const RightToLeft = {
+    ')': '(',
+    ']': '[',
+    '}': '{',
+  };
+  const stack = [];
+  for (let i = 0; i < str.length; i++) {
+    if (leftToRight[str[i]]) {
+      stack.push(str[i]);
+    } else if (RightToLeft[str[i]]) {
+      if (RightToLeft[str[i]] !== stack.pop()) return false;
+    } else {
+      return false;
+    }
+    console.log('🚀 ~ file: index.js ~ line 69 ~ runStack ~ stack', stack);
+  }
+  if (stack.length > 0) return false;
+  return true;
 }
