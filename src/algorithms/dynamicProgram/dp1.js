@@ -51,9 +51,11 @@ export default function Dp1() {
   return (
     <div>
       <p
-        className="hoverClick"
+        className="hoverClick subTitle"
         onClick={e => {
-          const result = runFunc([]);
+          const result = runFunc([1, 2, 3, 1]);
+          // const result = runFunc2([2, 7, 9, 3, 1]);
+          console.log('🚀 ~ file: dp1.js ~ line 57 ~ Dp1 ~ result', result);
         }}
       >
         打家劫舍动态规划
@@ -64,7 +66,7 @@ export default function Dp1() {
 
 function runFunc(arr) {
   window.runFunc = runFunc;
-
+  if (arr.length === 0 || !arr) return false;
   const dp = [];
   dp[0] = arr[0];
   dp[1] = Math.max(arr[0], arr[1]);
@@ -73,4 +75,15 @@ function runFunc(arr) {
     dp[i] = Math.max(arr[i] + dp[i - 2], dp[i - 1]);
   }
   return dp[arr.length - 1];
+}
+
+function runFunc2(arr) {
+  window.runFunc = runFunc;
+  if (arr.length === 0 || !arr) return false;
+  const dp = [];
+
+  for (let i = arr.length - 1; i >= 0; i--) {
+    dp[i] = Math.max(arr[i] + (dp[i + 2] || 0), dp[i + 1] || 0);
+  }
+  return dp[0];
 }

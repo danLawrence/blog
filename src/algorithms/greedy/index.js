@@ -1,8 +1,8 @@
-//  动态规划
+// 贪心算法
 
 import { useState, userEffect } from 'react';
 import './style/index.css';
-import DP1 from './dp1';
+import Greedy1 from './greedy1';
 
 export default function Index() {
   const [show, setShow] = useState(true);
@@ -10,9 +10,9 @@ export default function Index() {
   return (
     <div>
       <p className="hoverClick" onClick={e => setShow(!show)}>
-        动态规划的算法解析
+        贪心算法的算法解析
       </p>
-      {show && <DP1 />}
+      {show && <Greedy1 />}
     </div>
   );
 }
