@@ -41,9 +41,9 @@ export default function quickSortDisplay() {
   arr.sort(() => 0.5 - Math.random());
   return (
     <div>
-      <h2>快速排序展示</h2>
-      <p>[{String(arr)}]</p>
-      <p>[{String(quickSort2(arr, 0, arr.length - 1))}]</p>
+      <p className="subTitle">快速排序展示</p>
+      <p className="subTitle">[{String(arr)}]</p>
+      <p className="subTitle">[{String(quickSort2(arr, 0, arr.length - 1))}]</p>
     </div>
   );
 }

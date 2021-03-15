@@ -3,6 +3,8 @@ import { useState, userEffect } from 'react';
 import Stack from './stack';
 import DP from './dynamicProgram';
 import Greedy from './greedy';
+import Sort from './sort';
+import Recursive from './recursive';
 
 export default function Index() {
   return (
@@ -11,6 +13,8 @@ export default function Index() {
       <Stack />
       <DP />
       <Greedy />
+      <Sort />
+      <Recursive />
     </div>
   );
 }

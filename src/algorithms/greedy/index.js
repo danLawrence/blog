@@ -5,7 +5,7 @@ import './style/index.css';
 import Greedy1 from './greedy1';
 
 export default function Index() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <div>

@@ -30,9 +30,9 @@ export default function insertSortDisplay() {
   arr.sort(() => 0.5 - Math.random());
   return (
     <div>
-      <h2>插入排序展示</h2>
-      <p>[{String(arr)}]</p>
-      <p>[{String(insertSortBetter(arr, 0, arr.length))}]</p>
+      <p className="subTitle">插入排序展示</p>
+      <p className="subTitle">[{String(arr)}]</p>
+      <p className="subTitle">[{String(insertSortBetter(arr, 0, arr.length))}]</p>
     </div>
   );
 }
