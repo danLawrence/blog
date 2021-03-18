@@ -49,8 +49,8 @@ export default function Greedy1() {
       <p
         className="hoverClick subTitle"
         onClick={e => {
-          //   const result = runFunc([1, 2], [1, 2, 3]);
-          const result = runFunc([1, 2, 3], [1, 1]);
+          const result = runFunc([1, 2], [1, 2, 3]);
+          // const result = runFunc([1, 2, 3], [1, 1]);
           console.log('🚀 ~ file: greedy1.js ~ line 53 ~ Greedy1 ~ result', result);
         }}
       >
