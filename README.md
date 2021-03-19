@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
 - [Facebook 重构：抛弃 Sass / Less ，迎接原子化 CSS 时代](https://github.com/sl1673495/blogs/issues/69)--2021-01-04
 - [🔖TypeScript 备忘录：如何在 React 中完美运用？](https://github.com/sl1673495/blogs/issues/68)--2020-12-17
 - [Vue Router 4.0 正式发布！焕然一新。](https://github.com/sl1673495/blogs/issues/67)--2020-12-08
