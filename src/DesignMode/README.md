@@ -42,6 +42,7 @@ car1.buy('橘子');
 car2.buy('苹果');
 console.log(car1.goods); //[ '橘子', '苹果' ]
 console.log(car1 === car2); // true
+
 饿汉式
 var ShopCar = (function () {
   var instance = init();
