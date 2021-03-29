@@ -94,9 +94,9 @@ Thanks to https://github.com/sl1673495
 
 ## 学习
 
+- [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
+- [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
 - [中级前端面试指南](https://github.com/sl1673495/blogs/issues/52)--2020-06-27
-- [前端「N 皇后」递归回溯经典问题图解](https://github.com/sl1673495/blogs/issues/51)--2020-06-18
-- [前端电商 sku 全排列的递归回溯算法实战](https://github.com/sl1673495/blogs/issues/50)--2020-06-15
 - [前端动画必知必会：React 和 Vue 都在用的 FLIP 思想实战](https://github.com/sl1673495/blogs/issues/49)--2020-06-03
 - [前端瀑布流布局如何应用动态规划和贪心算法](https://github.com/sl1673495/blogs/issues/48)--2020-06-02
 <details><summary>显示更多</summary>
