@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
 - [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
 - [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
 - [Facebook 重构：抛弃 Sass / Less ，迎接原子化 CSS 时代](https://github.com/sl1673495/blogs/issues/69)--2021-01-04
@@ -94,6 +95,7 @@ Thanks to https://github.com/sl1673495
 
 ## 学习
 
+- [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
 - [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
 - [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
 - [中级前端面试指南](https://github.com/sl1673495/blogs/issues/52)--2020-06-27
