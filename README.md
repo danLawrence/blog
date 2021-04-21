@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [JS 算法之深度优先遍历(DFS)和广度优先遍历(BFS)](https://github.com/danLawrence/blog/issues/4)--2021-04-21
 - [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)--2021-04-10
 - [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
 - [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
