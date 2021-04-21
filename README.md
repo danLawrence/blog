@@ -15,7 +15,6 @@ Thanks to https://github.com/sl1673495
 - [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
 - [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
 - [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
-- [Facebook 重构：抛弃 Sass / Less ，迎接原子化 CSS 时代](https://github.com/sl1673495/blogs/issues/69)--2021-01-04
 
 ## React
 
@@ -146,6 +145,7 @@ Thanks to https://github.com/sl1673495
 
 ## 算法
 
+- [JS 算法之深度优先遍历(DFS)和广度优先遍历(BFS)](https://github.com/danLawrence/blog/issues/4)--2021-04-21
 - [前端算法进阶指南](https://github.com/sl1673495/blogs/issues/53)--2020-07-07
 - [前端「N 皇后」递归回溯经典问题图解](https://github.com/sl1673495/blogs/issues/51)--2020-06-18
 - [前端电商 sku 全排列的递归回溯算法实战](https://github.com/sl1673495/blogs/issues/50)--2020-06-15
