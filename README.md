@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [React Fiber 架构](https://github.com/danLawrence/blog/issues/5)--2021-04-25
 - [JS 算法之深度优先遍历(DFS)和广度优先遍历(BFS)](https://github.com/danLawrence/blog/issues/4)--2021-04-21
 - [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)--2021-04-10
 - [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
@@ -18,6 +19,7 @@ Thanks to https://github.com/sl1673495
 
 ## React
 
+- [React Fiber 架构](https://github.com/danLawrence/blog/issues/5)--2021-04-25
 - [🔖TypeScript 备忘录：如何在 React 中完美运用？](https://github.com/sl1673495/blogs/issues/68)--2020-12-17
 - [Web 现代应用程序架构下的性能优化，渐进式的极致艺术。](https://github.com/sl1673495/blogs/issues/65)--2020-11-19
 - [我在工作中写 React 学到了什么？性能优化篇。](https://github.com/sl1673495/blogs/issues/63)--2020-10-29
