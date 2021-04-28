@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [正则表达式入门](https://github.com/danLawrence/blog/issues/7) -- 2021-04-28
 - [requestIdleCallBack 了解一下](https://github.com/danLawrence/blog/issues/6) -- 2021-04-25
 - [React Fiber 架构](https://github.com/danLawrence/blog/issues/5) -- 2021-04-25
 - [JS 算法之深度优先遍历(DFS)和广度优先遍历(BFS)](https://github.com/danLawrence/blog/issues/4) -- 2021-04-21
@@ -100,14 +101,15 @@ Thanks to https://github.com/sl1673495
 
 ## 学习
 
+- [正则表达式入门](https://github.com/danLawrence/blog/issues/7) -- 2021-04-28
 - [requestIdleCallBack 了解一下](https://github.com/danLawrence/blog/issues/6) -- 2021-04-25
 - [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
 - [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
 - [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
 - [中级前端面试指南](https://github.com/sl1673495/blogs/issues/52)--2020-06-27
-- [前端动画必知必会：React 和 Vue 都在用的 FLIP 思想实战](https://github.com/sl1673495/blogs/issues/49)--2020-06-03
 <details><summary>显示更多</summary>
 
+- [前端动画必知必会：React 和 Vue 都在用的 FLIP 思想实战](https://github.com/sl1673495/blogs/issues/49)--2020-06-03
 - [前端瀑布流布局如何应用动态规划和贪心算法](https://github.com/sl1673495/blogs/issues/48)--2020-06-02
 - [深入解析你不知道的 EventLoop 和浏览器渲染、帧动画、空闲回调](https://github.com/sl1673495/blogs/issues/47)--2020-05-21
 - [Vue3 究竟好在哪里？（和 React Hook 的详细对比）](https://github.com/sl1673495/blogs/issues/46)--2020-04-20
