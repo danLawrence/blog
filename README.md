@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [this 速记](https://github.com/danLawrence/blog/issues/10) -- 2021-05-13
 - [WEB 安全简述](https://github.com/danLawrence/blog/issues/9) -- 2021-05-12
 - [JS 语法 ES6、ES7、ES8、ES9、ES10、ES11、ES12 新特性](https://github.com/danLawrence/blog/issues/8) -- 2021-05-07
@@ -18,9 +19,6 @@ Thanks to https://github.com/sl1673495
 - [React Fiber 架构](https://github.com/danLawrence/blog/issues/5) -- 2021-04-25
 - [JS 算法之深度优先遍历(DFS)和广度优先遍历(BFS)](https://github.com/danLawrence/blog/issues/4) -- 2021-04-21
 - [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13) -- 2021-04-10
-- [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3) -- 2021-03-30
-- [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
-- [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1) -- 2021-03-19
 
 ## React
 
@@ -104,6 +102,7 @@ Thanks to https://github.com/sl1673495
 
 ## 学习
 
+- [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [WEB 安全简述](https://github.com/danLawrence/blog/issues/9) -- 2021-05-12
 - [JS 语法 ES6、ES7、ES8、ES9、ES10、ES11、ES12 新特性](https://github.com/danLawrence/blog/issues/8) -- 2021-05-07
 - [正则表达式入门](https://github.com/danLawrence/blog/issues/7) -- 2021-04-28
