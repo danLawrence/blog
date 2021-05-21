@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [【javascript 技巧】谈谈 setTimeout 的作用域以及 this 的指向问题](https://github.com/danLawrence/blog/issues/13) -- 2021-05-20
 - [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [this 速记](https://github.com/danLawrence/blog/issues/10) -- 2021-05-13
 - [WEB 安全简述](https://github.com/danLawrence/blog/issues/9) -- 2021-05-12
@@ -102,15 +103,17 @@ Thanks to https://github.com/sl1673495
 
 ## 学习
 
+- [【javascript 技巧】谈谈 setTimeout 的作用域以及 this 的指向问题](https://github.com/danLawrence/blog/issues/13) -- 2021-05-20
+- [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [WEB 安全简述](https://github.com/danLawrence/blog/issues/9) -- 2021-05-12
 - [JS 语法 ES6、ES7、ES8、ES9、ES10、ES11、ES12 新特性](https://github.com/danLawrence/blog/issues/8) -- 2021-05-07
 - [正则表达式入门](https://github.com/danLawrence/blog/issues/7) -- 2021-04-28
 - [requestIdleCallBack 了解一下](https://github.com/danLawrence/blog/issues/6) -- 2021-04-25
 - [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
-- [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
 <details><summary>显示更多</summary>
 
+- [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
 - [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
 - [中级前端面试指南](https://github.com/sl1673495/blogs/issues/52)--2020-06-27
 - [前端动画必知必会：React 和 Vue 都在用的 FLIP 思想实战](https://github.com/sl1673495/blogs/issues/49)--2020-06-03
