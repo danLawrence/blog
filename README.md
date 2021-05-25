@@ -24,6 +24,7 @@ Thanks to https://github.com/sl1673495
 ## React
 
 - [React Fiber 架构](https://github.com/danLawrence/blog/issues/5)--2021-04-25
+- [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)--2021-04-10
 - [🔖TypeScript 备忘录：如何在 React 中完美运用？](https://github.com/sl1673495/blogs/issues/68)--2020-12-17
 - [Web 现代应用程序架构下的性能优化，渐进式的极致艺术。](https://github.com/sl1673495/blogs/issues/65)--2020-11-19
 - [我在工作中写 React 学到了什么？性能优化篇。](https://github.com/sl1673495/blogs/issues/63)--2020-10-29
@@ -42,7 +43,6 @@ Thanks to https://github.com/sl1673495
 - [使用 React Hooks + 自定义 Hook 封装一步一步打造一个完善的小型应用。](https://github.com/sl1673495/blogs/issues/16)--2019-08-30
 - [react-component 源码学习（2） rc-steps](https://github.com/sl1673495/blogs/issues/6)--2018-10-10
 - [react-component 源码学习（1） rc-form](https://github.com/sl1673495/blogs/issues/5)--2018-10-05
-- [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)--2021-04-10
 </details>
 
 ## TypeScript
@@ -104,7 +104,6 @@ Thanks to https://github.com/sl1673495
 ## 学习
 
 - [【javascript 技巧】谈谈 setTimeout 的作用域以及 this 的指向问题](https://github.com/danLawrence/blog/issues/13) -- 2021-05-20
-- [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [WEB 安全简述](https://github.com/danLawrence/blog/issues/9) -- 2021-05-12
 - [JS 语法 ES6、ES7、ES8、ES9、ES10、ES11、ES12 新特性](https://github.com/danLawrence/blog/issues/8) -- 2021-05-07
