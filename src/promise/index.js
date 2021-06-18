@@ -1,26 +1,30 @@
-function myPromise(executor) {
+function myPromise(func) {
   let that = this;
   this.status = 'pending';
   this.value = null;
   this.reason = null;
   this.onFulfilledArray = [];
   this.onRejectedArray = [];
+
   function resolve(value) {
     if (that.status === 'pending') {
-      that.status = 'success';
+      that.status = 'fulFilled';
       that.value = value;
-      that.onFulfilledArray.forEach(fn => fn(value));
+      that.onFulfilledArray.forEach(func => {
+        func(that.value);
+      });
     }
   }
-  function reject(value) {
+  function reject(reason) {
     if (that.status === 'pending') {
-      that.status = 'reject';
-      that.reason = value;
-      that.onRejectedArray.forEach(fn => fn(value));
+      that.status = 'rejected';
+      that.reason = reason;
+      that.onRejectedArray.forEach(func => {
+        func(that.reason);
+      });
     }
   }
-
-  executor(resolve, reject);
+  func(resolve, reject);
 }
 
 myPromise.prototype.then = function (onFulfilled, onRejected) {
@@ -31,14 +35,79 @@ myPromise.prototype.then = function (onFulfilled, onRejected) {
       : error => {
           throw error;
         };
-  if (this.status === 'success') {
-    onFulfilled(this.value);
-  }
-  if (this.status === 'reject') {
-    onRejected(this.reason);
-  }
-  if (this.status === 'pending') {
-    this.onFulfilledArray.push(onFulfilled);
-    this.onRejectedArray.push(onRejected);
+  if (this.status === 'fulFilled') {
+    return (promiseNext = new myPromise((resolve, reject) => {
+      try {
+        const res = onFulfilled(this.value);
+        getResolveValue(promiseNext, res, resolve, reject);
+      } catch (e) {
+        onRejected(e);
+      }
+    }));
+  } else if (this.status === 'rejected') {
+    return (promiseNext = new myPromise((resolve, reject) => {
+      try {
+        const res = onFulfilled(this.reason);
+        getResolveValue(promiseNext, res, resolve, reject);
+      } catch (e) {
+        onRejected(e);
+      }
+    }));
+  } else if (this.status === 'pending') {
+    return (promiseNext = new myPromise((resolve, reject) => {
+      this.onFulfilledArray.push(value => {
+        try {
+          const res = onFulfilled(value);
+          getResolveValue(promiseNext, res, resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+      });
+      this.onRejectedArray.push(reason => {
+        try {
+          const res = onRejected(reason);
+          getResolveValue(promiseNext, res, resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+      });
+    }));
   }
 };
+
+function getResolveValue(promiseNext, res, resolve, reject) {
+  if (res === promiseNext) {
+    return reject('cannot use the same promise');
+  }
+  let mark = false;
+  if ((typeof res === 'object' && res !== null) || typeof res === 'function') {
+    try {
+      let then = res.then;
+      if (typeof then === 'function') {
+        then.call(
+          res,
+          resNext => {
+            if (mark) return;
+            mark = true;
+            getResolveValue(promiseNext, resNext, resolve, reject);
+          },
+          errNext => {
+            if (mark) return;
+            mark = true;
+            reject(errNext);
+          }
+        );
+      } else {
+        if (mark) return;
+        mark = true;
+        resolve(res);
+      }
+    } catch (e) {
+      if (mark) return;
+      mark = true;
+      reject(e);
+    }
+  } else {
+    resolve(res);
+  }
+}
