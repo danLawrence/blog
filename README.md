@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [深入理解 React：懒加载（lazy）实现原理](https://github.com/danLawrence/blog/issues/17) -- 2021-06-23
 - [浅析 css 中的 BFC、IFC、GFC 和 FFC](https://github.com/danLawrence/blog/issues/16) -- 2021-06-21
 - [死磕 36 个 JS 手写题（搞懂后，提升真的大）](https://juejin.cn/post/6946022649768181774#heading-42) -- 2021-06-19
 - [【javascript 技巧】谈谈 setTimeout 的作用域以及 this 的指向问题](https://github.com/danLawrence/blog/issues/13) -- 2021-05-20
@@ -25,15 +26,16 @@ Thanks to https://github.com/sl1673495
 
 ## React
 
+- [深入理解 React：懒加载（lazy）实现原理](https://github.com/danLawrence/blog/issues/17) -- 2021-06-23
 - [React Fiber 架构](https://github.com/danLawrence/blog/issues/5)--2021-04-25
 - [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)--2021-04-10
 - [🔖TypeScript 备忘录：如何在 React 中完美运用？](https://github.com/sl1673495/blogs/issues/68)--2020-12-17
 - [Web 现代应用程序架构下的性能优化，渐进式的极致艺术。](https://github.com/sl1673495/blogs/issues/65)--2020-11-19
 - [我在工作中写 React 学到了什么？性能优化篇。](https://github.com/sl1673495/blogs/issues/63)--2020-10-29
-- [我在工作中写 React 学到了什么？](https://github.com/sl1673495/blogs/issues/62)--2020-10-20
-- [深入探索前端路由，手写 react-mini-router](https://github.com/sl1673495/blogs/issues/61)--2020-09-16
 <details><summary>显示更多</summary>
 
+- [我在工作中写 React 学到了什么？](https://github.com/sl1673495/blogs/issues/62)--2020-10-20
+- [深入探索前端路由，手写 react-mini-router](https://github.com/sl1673495/blogs/issues/61)--2020-09-16
 - [Vue3 究竟好在哪里？（和 React Hook 的详细对比）](https://github.com/sl1673495/blogs/issues/46)--2020-04-20
 - [Vue 和 React 对于组件的更新粒度有什么区别？](https://github.com/sl1673495/blogs/issues/38)--2020-04-01
 - [React Hook + TypeScript 深入浅出实现一个购物车（陷阱、性能优化、自定义 hook）](https://github.com/sl1673495/blogs/issues/36)--2020-03-19
@@ -105,15 +107,16 @@ Thanks to https://github.com/sl1673495
 
 ## 学习
 
+- [死磕 36 个 JS 手写题（搞懂后，提升真的大）](https://juejin.cn/post/6946022649768181774#heading-42) -- 2021-06-19
 - [【javascript 技巧】谈谈 setTimeout 的作用域以及 this 的指向问题](https://github.com/danLawrence/blog/issues/13) -- 2021-05-20
 - [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
 - [WEB 安全简述](https://github.com/danLawrence/blog/issues/9) -- 2021-05-12
 - [JS 语法 ES6、ES7、ES8、ES9、ES10、ES11、ES12 新特性](https://github.com/danLawrence/blog/issues/8) -- 2021-05-07
 - [正则表达式入门](https://github.com/danLawrence/blog/issues/7) -- 2021-04-28
 - [requestIdleCallBack 了解一下](https://github.com/danLawrence/blog/issues/6) -- 2021-04-25
-- [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
 <details><summary>显示更多</summary>
 
+- [IIFE 立即执行函数了解一下](https://github.com/danLawrence/blog/issues/3)--2021-03-30
 - [前端必学设计模式总结](https://github.com/danLawrence/blog/issues/1)--2021-03-19
 - [http 状态码](https://github.com/danLawrence/blog/issues/2) -- 2021-03-26
 - [中级前端面试指南](https://github.com/sl1673495/blogs/issues/52)--2020-06-27
@@ -151,6 +154,10 @@ Thanks to https://github.com/sl1673495
 - [babel7 的配置与优化。](https://github.com/sl1673495/blogs/issues/13)--2019-03-15
 - [关于如何触发浏览器重绘的一些尝试。](https://github.com/sl1673495/blogs/issues/12)--2018-11-23
 </details>
+
+## CSS
+
+- [浅析 css 中的 BFC、IFC、GFC 和 FFC](https://github.com/danLawrence/blog/issues/16) -- 2021-06-21
 
 ## 浏览器
 
