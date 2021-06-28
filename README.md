@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [flex 值缩写的规则了解一下](https://github.com/danLawrence/blog/issues/19) -- 2021-06-28
 - [JS 箭头函数和 function 的区别](https://github.com/danLawrence/blog/issues/18) -- 2021-06-25
 - [深入理解 React：懒加载（lazy）实现原理](https://github.com/danLawrence/blog/issues/17) -- 2021-06-23
 - [浅析 css 中的 BFC、IFC、GFC 和 FFC](https://github.com/danLawrence/blog/issues/16) -- 2021-06-21
@@ -158,6 +159,7 @@ Thanks to https://github.com/sl1673495
 
 ## CSS
 
+- [flex 值缩写的规则了解一下](https://github.com/danLawrence/blog/issues/19) -- 2021-06-28
 - [浅析 css 中的 BFC、IFC、GFC 和 FFC](https://github.com/danLawrence/blog/issues/16) -- 2021-06-21
 
 ## 浏览器
