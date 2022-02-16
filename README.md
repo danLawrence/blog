@@ -11,6 +11,7 @@ Thanks to https://github.com/sl1673495
 ## 最近更新
 
 - [TypeScript常用知识](https://github.com/danLawrence/blog/issues/23) -- 2022-02-16
+- [VUE组件间父子或隔代传递值的通信方式记录](https://github.com/danLawrence/blog/issues/20) -- 2021-11-15
 - [前端灰度发布落地方案](https://github.com/danLawrence/blog/issues/21) -- 2021-09-24
 - [flex 值缩写的规则了解一下](https://github.com/danLawrence/blog/issues/19) -- 2021-06-28
 - [JS 箭头函数和 function 的区别](https://github.com/danLawrence/blog/issues/18) -- 2021-06-25
@@ -78,14 +79,14 @@ Thanks to https://github.com/sl1673495
 </details>
 
 ## Vue
-
+- [VUE组件间父子或隔代传递值的通信方式记录](https://github.com/danLawrence/blog/issues/20) -- 2021-11-15
 - [Vue Router 4.0 正式发布！焕然一新。](https://github.com/sl1673495/blogs/issues/67)--2020-12-08
 - [利用 TS 4.1 新特性实现 Vuex 无限层级命名空间的 dispatch 类型推断。](https://github.com/sl1673495/blogs/issues/60)--2020-09-05
 - [Vue3 + TypeScript 实现递归菜单组件](https://github.com/sl1673495/blogs/issues/56)--2020-08-21
 - [Vue3 究竟好在哪里？（和 React Hook 的详细对比）](https://github.com/sl1673495/blogs/issues/46)--2020-04-20
-- [Vue3 的响应式和以前有什么区别，Proxy 无敌？](https://github.com/sl1673495/blogs/issues/44)--2020-04-13
 <details><summary>显示更多</summary>
 
+- [Vue3 的响应式和以前有什么区别，Proxy 无敌？](https://github.com/sl1673495/blogs/issues/44)--2020-04-13
 - [Vue 的计算属性真的会缓存吗？（原理揭秘）](https://github.com/sl1673495/blogs/issues/43)--2020-04-10
 - [驳《前端常见的 Vue 面试题目汇总》](https://github.com/sl1673495/blogs/issues/42)--2020-04-09
 - [Vue 进阶必学之高阶组件实战](https://github.com/sl1673495/blogs/issues/41)--2020-04-06
