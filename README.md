@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [TypeScript常用知识](https://github.com/danLawrence/blog/issues/23) -- 2022-02-16
 - [前端灰度发布落地方案](https://github.com/danLawrence/blog/issues/21) -- 2021-09-24
 - [flex 值缩写的规则了解一下](https://github.com/danLawrence/blog/issues/19) -- 2021-06-28
 - [JS 箭头函数和 function 的区别](https://github.com/danLawrence/blog/issues/18) -- 2021-06-25
@@ -57,6 +58,7 @@ Thanks to https://github.com/sl1673495
 
 ## TypeScript
 
+- [TypeScript常用知识](https://github.com/danLawrence/blog/issues/23) -- 2022-02-16
 - [🔖TypeScript 备忘录：如何在 React 中完美运用？](https://github.com/sl1673495/blogs/issues/68)--2020-12-17
 - [利用 TS 4.1 新特性实现 Vuex 无限层级命名空间的 dispatch 类型推断。](https://github.com/sl1673495/blogs/issues/60)--2020-09-05
 - [TypeScript 4.1 新特性：字符串模板类型，Vuex 终于有救了？](https://github.com/sl1673495/blogs/issues/57)--2020-09-02
