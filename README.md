@@ -10,6 +10,7 @@ Thanks to https://github.com/sl1673495
 
 ## 最近更新
 
+- [如何中断已发出去的请求？](https://github.com/danLawrence/blog/issues/24) -- 2022-03-04
 - [TypeScript常用知识](https://github.com/danLawrence/blog/issues/23) -- 2022-02-16
 - [VUE组件间父子或隔代传递值的通信方式记录](https://github.com/danLawrence/blog/issues/20) -- 2021-11-15
 - [前端灰度发布落地方案](https://github.com/danLawrence/blog/issues/21) -- 2021-09-24
@@ -116,6 +117,7 @@ Thanks to https://github.com/sl1673495
 
 ## 学习
 
+- [如何中断已发出去的请求？](https://github.com/danLawrence/blog/issues/24) -- 2022-03-04
 - [死磕 36 个 JS 手写题（搞懂后，提升真的大）](https://juejin.cn/post/6946022649768181774#heading-42) -- 2021-06-19
 - [【javascript 技巧】谈谈 setTimeout 的作用域以及 this 的指向问题](https://github.com/danLawrence/blog/issues/13) -- 2021-05-20
 - [帮你彻底搞懂 JS 中的 prototype、**proto**与 constructor（图解）](https://github.com/danLawrence/blog/issues/12) -- 2021-05-18
